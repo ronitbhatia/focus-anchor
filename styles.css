@@ -1,0 +1,8 @@
+/* Ghost scrollbar flash indicator */
+html.fa-restore::-webkit-scrollbar-thumb {
+  background: #ff6b00;
+  transition: background 1s ease-out;
+}
+html.fa-restore {
+  scroll-behavior: smooth;
+}
